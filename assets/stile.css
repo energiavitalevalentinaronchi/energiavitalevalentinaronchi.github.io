@@ -62,8 +62,8 @@ body {
   font: 1rem/1.65 var(--sans);
   -webkit-text-size-adjust: 100%;
 }
-
-body.theme-home, .site-footer, .inner-hero { overflow: clip; }
+body.theme-home { overflow-x: clip; }
+.site-footer, .inner-hero { overflow: clip; }
 img { display: block; max-width: 100%; height: auto; }
 p, h1, h2, h3, blockquote, figure { margin: 0; }
 h1, h2, h3 { color: var(--green); font: 400 1em/1.12 var(--serif); }
